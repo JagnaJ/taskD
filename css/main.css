@@ -1,0 +1,34 @@
+* {
+  font-family: 'Quicksand', 'Source Sans 3', 'Roboto', 'Inter';
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;  
+}
+
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav-list li {
+  margin-right: 20px; 
+  font-weight: 400;
+  font-size: 16px; 
+}
+
+.header__buttons button {
+  margin-left: 10px; 
+}
+
+
+
+
+
