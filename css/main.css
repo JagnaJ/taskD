@@ -18,13 +18,13 @@
   padding: 0;
 }
 
-.header__nav-list li {
+.header__nav-list {
   margin-right: 20px; 
   font-weight: 400;
   font-size: 16px; 
 }
 
-.header__buttons button {
+.header__buttons {
   margin-left: 10px; 
 }
 
