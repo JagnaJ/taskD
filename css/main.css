@@ -3,15 +3,11 @@
   margin: 0;
   list-style: none;
 }
+
 main,
 footer {
   margin-left: 70px;
 }
-
-/* .container {
-    max-width: 1200px; 
-    margin: 0 auto; 
- } */
 
 .header {
   display: flex;
@@ -198,15 +194,9 @@ footer {
   margin-top: 90px;
 }
 
-/* .main__intro-photo span {
-
-} */
-
 .intro__img {
   width: 800px;
 }
-
-/* SECOND PAGE */
 
 .results__block {
   margin-top: 160px;
@@ -220,11 +210,6 @@ footer {
   font-size: 25px;
   color: #3b3c4e;
 }
-
-/* .results__block img {
-  text-align: center;
-  width: 500px;
-} */
 
 .result__boxes {
   display: flex;
@@ -252,12 +237,163 @@ footer {
   background-color: #FBFBFF;
 }
 
+.productivity__clock {
+  width: 150px;
+  height: 80px;
+  border: 1px solid #42a9f0;
+  border-radius: 5px;
+  background-color: #1483E9;
+}
+
+.productivity__clock img {
+width: 60px;
+}
+
+.productivity__clock-heading {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.productivity__clock-time {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+.productivity__clock-text {
+  margin-left: 15px;
+}
+
+.productivity__clock {
+  display: flex;
+}
+
+.productivity__clock-block {
+  margin-top: 10px;
+}
+
+.productivity__heading {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 5px;
+}
+
+.best-performance {
+  font-family: 'Inter';
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #DDF7E7;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
 .productivity__initial-text {
   font-family: "Inter";
   font-size: 15px;
   font-weight: 500;
   color: #3b3c4e;
   margin-bottom: 15px;
+}
+
+.jamie-bell img,
+.stella-shelton img,
+.avery-johnson img,
+.chris-johnson-img {
+border-radius: 60px;
+width: 60px;
+margin-right: 20px;
+}
+
+.jamie-bell,
+.stella-shelton,
+.avery-johnson {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.jamie-bell p,
+.stella-shelton p,
+.avery-johnson p {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  color: #00000066;
+  margin-top: 20px;
+}
+
+.chris__profile {
+  display: flex;
+}
+
+.chris-johnson {
+  background-color: #fff;
+  border-radius: 25px;
+  width: 250px;
+  height: 290px;
+  padding-left: 40px;
+  padding-top: 40px;
+  margin-top: 20px;
+}
+
+.chris-name {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+  color: #3B3C4E;
+}
+
+.chris-diagram {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.chris-diagram img {
+  width: 150px;
+}
+
+.chris-manager {
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 400;
+  color: #00000066;
+}
+
+.chris-text {
+  margin-top: 10px;
+}
+
+.total-budget {
+  width: 150px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: #FFA800;
+  display: flex;
+}
+
+.productivity {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+}
+
+.productivity__graphical-part {
+  display: flex;
+}
+
+.best-performance__list {
+  background-color: white;
+  border-radius: 25px;
+  width: 250px;
+  height: 290px;
+  padding-left: 40px;
 }
 
 .productivity__additional-text {
@@ -282,6 +418,8 @@ footer {
   font-weight: 400;
   margin-bottom: 10px;
   color: #6c757d;
+  margin-left: -50px;
+  margin-top: 25px;
 }
 
 .productivity__reports-list li span {
@@ -308,9 +446,6 @@ footer {
 .productivity__btn_start:hover {
   background-color: #2980b9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.one-place__block {
 }
 
 .one-place__heading {
@@ -361,12 +496,6 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
-/* .one-place__management, .one-place__monitoring, .one-place__training{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .one-place__management p {
   display: flex;
