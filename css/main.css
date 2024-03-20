@@ -6,16 +6,14 @@
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  max-width: 1600px;
 }
 
 .header__nav-logo {
   font-family: "Quicksand";
   font-size: 35px;
   margin-bottom: 70px;
-  margin-left: 175px;
   color: #3d3d3d;
   font-weight: 600;
   margin-top: 70px;
@@ -34,7 +32,7 @@
 }
 
 .header__nav-list li {
-  justify-content: space-between;
+ margin-right: 40px;
 }
 
 .btn-login {
@@ -70,10 +68,9 @@
 
 .intro {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  max-width: 1600px;
-  margin-left: 100px;
+  gap: 350px;
 }
 
 .main__intro {
@@ -175,8 +172,6 @@
 }
 
 .main__intro-photo {
-  display: flex;
-  justify-content: space-between;
   margin-top: 90px;
 }
 
@@ -251,8 +246,7 @@
 
 .productivity__max-width {
   display: flex;
-  justify-content: space-around;
-  min-width: 1600px;
+  justify-content: center;
 }
 
 .productivity__block-left {
@@ -325,12 +319,20 @@
   width: 600px;
 }
 
+.one-place__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
 .one-place__heading {
   font-family: "Source Sans 3";
   font-size: 45px;
   font-weight: 700;
   color: #3b3c4e;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 7px;
 }
 
@@ -339,15 +341,15 @@
   font-weight: 400;
   color: #3b3c4e;
   font-size: 18px;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 30px;
 }
 
 .demo__btn-center {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  margin-left: -65px;
+  justify-content: center; */
+  /* margin-left: -65px; */
 }
 
 .one-place__management,
@@ -403,9 +405,7 @@ margin-bottom: 40px;
   height: 130px;
 }
 
-.one-place__block {
-  margin-top: 70px;
-}
+
 
 .one-place__management-bold {
   text-align: center;
@@ -515,7 +515,7 @@ margin-bottom: 40px;
 .blue__boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 50px;
   margin-right: 300px;
   margin-left: 300px;
@@ -548,11 +548,10 @@ margin-bottom: 40px;
 
 .advantages__block {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-right: 200px;
-  margin-left: 300px;
   margin-bottom: 120px;
+  gap: 150px;
 }
 
 .advantages__ordered-list ul li {
@@ -581,7 +580,6 @@ margin-bottom: 40px;
 
 .advantages__block img {
   width: 600px;
-  margin-right: 80px;
 }
 
 .screenchots__text-heading {
@@ -686,9 +684,8 @@ align-items: left;
 
  .screenchots__container {
   display: flex;
-  justify-content: space-between;
-  margin-right: 400px;
-  margin-left: 400px;
+  justify-content: center;
+  gap: 80px;
   margin-bottom: 120px;
   margin-top: 80px;
 }
@@ -806,20 +803,28 @@ text-align: left;
 .pricing__blocks {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-color: white; 
-  margin-left: 300px;
-  margin-right: 300px;
   border-radius: 25px;
-}
-
-.pricing__blocks div {
-  margin-right: 50px;
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 0 3px 4px 0 rgba(43, 48, 63, 0.151);
 }
 
 .pricing__blocks ul li {
   margin-left: -25px;
   margin-bottom: 15px;
+}
+
+.pricing__basic,
+.pricing__enterprise,
+.pricing__pro {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
 }
 
 .pricing__basic ul li,
@@ -829,7 +834,6 @@ text-align: left;
   font-size: 15px;
   color: #666666;
   list-style: disc;
-  margin-left: -50px;
 }
 
 .pricing__basic span,
@@ -881,16 +885,12 @@ text-align: left;
 .pricing__pro {
   background-color: #1e94fd;
   padding-top: 40px;
-  padding-bottom: -20px;
   border-radius: 15px;
-  width: 300px;
-}
-
-.pricing__pro p,
-ul,
-li,
-button {
-  margin-left: 30px;
+  width: 280px;
+  position: absolute;
+  margin-top: -570px;
+  margin-left: 360px;
+  box-shadow: 0 6px 6px 0 rgba(43, 48, 63, 0.151);
 }
 
 .pricing__pro ul li {
@@ -898,11 +898,16 @@ button {
   font-weight: 400;
   font-size: 15px;
   color: white;
-  list-style: circle;
+  list-style: disc;
+  margin-left: -20px;
+  margin-bottom: 15px;
 }
 
 .pricing {
   background-color: #f9f9ff;
+  padding-bottom: 80px;
+  padding-left: 400px;
+  padding-right: 400px;
 }
 
 .pricing__pro-btn {
@@ -987,19 +992,37 @@ button {
   font-family: "Inter";
   font-weight: 500;
   font-size: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
   background-color: #f9f9ff99;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 25px;
+ padding: 25px;
   border-radius: 10px;
   border: 1px solid #5f5e5d3d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .faq ul {
-  margin-left: 500px;
-  margin-right: 500px;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.expand-more {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: flex-end; */
+}
+
+/* .faq-li {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.faq__list {
+  display: flex;
+  justify-content: center;
 }
 
 .faq__btn-center {
@@ -1104,7 +1127,6 @@ button {
 
 .footer__list {
   display: flex;
-  align-items: center;
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 35px;
@@ -1112,7 +1134,6 @@ button {
 
 .footer__list p {
   margin-top: 50px;
-  margin-left: 90px;
 }
 
 .footer__list li {
@@ -1123,6 +1144,14 @@ button {
   font-weight: 400;
   font-size: 15px;
   color: #ffffff;
+}
+
+.footer__horizontal-line {
+  width: 1250px;
+  height: 1px;
+  background: #ffffff51;
+  margin: 0 auto;
+  margin-bottom: 70px;
 }
 
 .footer__heading-font {
@@ -1145,9 +1174,9 @@ button {
 
 .footer__bottom-logo {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 35px;
+  gap: 240px;
 }
 
 .footer__bottom-style {
@@ -1155,18 +1184,13 @@ button {
   font-weight: 400;
   font-size: 23px;
   color: white;
-  margin-left: 250px;
 }
 
 .footer__bottom-text {
-  display: flex;
-  justify-content: wrap;
-  text-align: left;
   font-family: "Inter";
   font-weight: 400;
   color: white;
   font-size: 15px;
-  margin-right: 200px;
   max-width: 600px;
 }
 
