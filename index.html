@@ -13,6 +13,7 @@
     />
   </head>
   <body>
+    <div class="header__container">
     <header class="header">
       <span class="header__nav-logo">Logo</span>
       <div class="header__frame">
@@ -29,6 +30,7 @@
         </div>
       </div>
     </header>
+  </div>
     <div class="container">
       <main>
         <section class="intro">
@@ -73,29 +75,34 @@
           </p>
           <!-- <img src="img/group-51K.png" alt="group with numbers"> -->
           <div class="result__boxes">
-            <div>
+            <div class="box">
               <p class="result__boxes-bold">11M+</p>
               <p class="result__boxes-normal">Hours Tracked</p>
             </div>
-            <div>
+            <div class="one-place__separator-vertical"></div>
+            <div class="box">
               <p class="result__boxes-bold">840K+</p>
               <p class="result__boxes-normal">Tasks Completed</p>
             </div>
-            <div>
+            <div class="one-place__separator-vertical"></div>
+            <div class="box">
               <p class="result__boxes-bold">51K+</p>
               <p class="result__boxes-normal">Productive Users</p>
             </div>
-            <div>
+            <div class="one-place__separator-vertical"></div>
+            <div class="box">
               <p class="result__boxes-bold">35K+</p>
               <p class="result__boxes-normal">Projects Succeeded</p>
             </div>
           </div>
+          <div class="one-place__separator-horizontal"></div>
         </section>
         <section class="productivity">
+          <div class="productivity__max-width">
           <div class="productivity__block-left">
           <p class="productivity__initial-text">Productivity Focused</p>
           <p class="productivity__bold-text">
-            Achieve more Productivity <br> with StaffViz
+            Achieve more Productivity with StaffViz
           </p>
           <p class="productivity__additional-text">
             sapien quaerat ipsum undo congue laoreet auctor turpis vitae.
@@ -103,83 +110,22 @@
           <ul class="productivity__reports-list">
             <li>
               <span>Timesheet Reports:</span> quaerat an ipsum laoreet purus and
-              sapien <br> ultrice ipsum aliquam undo.
+              sapien ultrice ipsum aliquam undo.
             </li>
             <li>
               <span>Real -Time Reports:</span> vitae cubilia magnis volute
-              egestas <br> turpis ultrice auctor congue.
+              egestas turpis ultrice auctor congue.
             </li>
             <li>
               <span>Productivity Reports:</span> vitae cubilia magnis volute
-              egestas <br> turpis ultrice auctor congue placerat placerat.
+              egestas turpis ultrice auctor congue placerat placerat.
             </li>
           </ul>
           <button class="productivity__btn_start">Get Started</button>
         </div>
           <div class="productivity__graphical-part">
-            <div class="productivity__clock">
-              <div class="productivity__clock-text">
-              <p class="productivity__clock-heading">Total Time Spent</p>
-              <p class="productivity__clock-time">47:39:02</p>
-            </div>
-            <div class="productivity__clock-block">
-              <img src="img/small-clock.png" alt="small clock" />
-            </div>
-            </div>
-            <div class="productivity__best-performance">
-              <div class="best-performance__list">
-              <div class="productivity__heading">
-              <!-- <img style="width: 10px;" src="img/small-parts/up-arrow.png" alt="green up arrow" /> -->
-              <p class="best-performance">Best Performance</p>
-            </div>
-              <div class="jamie-bell">
-                <img src="img/Jamie-bell.jpg" alt="Jamie bell" />
-                <p>Jamie bell</p>
-                <!-- <img style="width: 10px;"
-                  src="img/small-parts/JamieBell-trophy.png"
-                  alt="Jamie Bell trophy"
-                /> -->
-              </div>
-              <div class="stella-shelton">
-                <img src="img/Stella-shelton.jpg" alt="Stella Shelton" />
-                <p>Stella Shelton</p>
-                <!-- <img style="width: 10px;"
-                  src="img/small-parts/stella-shelton-trophy.png"
-                  alt="Stella Shelton trophy"
-                /> -->
-              </div>
-              <div class="avery-johnson">
-                <img src="img/Avery-johnson.jpg" alt="Avery Johnson" />
-                <p>Avery Johnson</p>
-                <!-- <img style="width: 10px;"
-                  src="img/small-parts/avery-trophy.png"
-                  alt="Avery Johnson trophy"
-                /> -->
-              </div>
-            </div>
-              <div class="chris-johnson">
-                <div class="chris__profile">
-                <img class="chris-johnson-img" src="img/Chris-Johnson.png" alt="Chris Johnson" />
-                <div class="chris-text">
-                <p class="chris-name">Chris Johnson</p>
-                <p class="chris-manager">Marketing Manager</p>
-              </div>
-            </div>
-              <div class="chris-diagram">
-                <img
-                  src="img/circle-chris-johnson.png"
-                  alt="diagram with hours"
-                />
-              </div>
-              </div>
-              <div class="total-budget">
-                <div class="productivity__clock-text">
-                <p class="productivity__clock-heading">Total Budget</p>
-                <p class="productivity__clock-time">$750:00</p>
-              </div>
-                <img style="width: 70px;" src="img/budget.png" alt="total budget" />
-              </div>
-            </div>
+            <img src="img/productivity-group-photo.png" alt="productivity photo">
+          </div>
           </div>
         </section>
         <section class="one-place__block">
@@ -190,7 +136,9 @@
           </p>
           <div class="one-place__diagram-blocks">
             <div class="one-place__management">
+              <div class="shadow">
               <img src="img/project-management.png" alt="project management" />
+            </div>
               <p class="one-place__management-bold">Project Management</p>
               <p class="one-place__management-normal">
                 Tempor laoreet augue undo ultrice aliquam in lacusq luctus
@@ -198,7 +146,9 @@
               </p>
             </div>
             <div class="one-place__monitoring">
+              <div class="shadow">
               <img src="img/monitoring.png" alt="monitoring" />
+            </div>
               <p class="one-place__management-bold">Monitoring</p>
               <p class="one-place__management-normal">
                 Luctus egestas augue undo ultrice aliquam in lacus congue
@@ -206,10 +156,12 @@
               </p>
             </div>
             <div class="one-place__training">
+              <div class="shadow">
               <img
                 src="img/training-and-assesment.png"
                 alt="Training and Assetment"
               />
+            </div>
               <p class="one-place__management-bold">Training and Assetment</p>
               <p class="one-place__management-normal">
                 Egestas luctus augue undo ultrice aliquam in lacus feugiat
@@ -303,10 +255,12 @@
               </div>
             </div>
             <div class="blue__clock-block">
-              <img src="img/small-parts/blue-section-clock.png" alt="clock" />
+              <img src="img/blue-section-clock.png" alt="clock" />
             </div>
           </div>
+          <div class="blue__link">
           <a href="#">See All Features</a>
+        </div>
         </section>
         <section class="advantages__block">
           <div class="advantages__ordered-list">
@@ -367,7 +321,7 @@
           </div>
             <div class="image-container">
             <img
-              src="img/small-parts/screenshots-block-time-background.svg.png"
+              src="img/blue-block.png"
               alt="clock"
             />
           </div>
@@ -378,7 +332,7 @@
             <p class="screenshots__white-text">Teams that used WebWork for 3 months increased</p>
             <p class="screenshots__white-additional">their <span class="underline">productivity</span> by <span class="white-span">25%</span> on average.</p>
             <div class="white-img">
-            <img src="img/improves-productivity-webwork.webp.png"/>
+            <img src="img/man.png" alt="man in diagram 85%">
           </div>
           </div>
           </div>
@@ -401,21 +355,7 @@
         <section class="cooperation">
           <p class="cooperation__text">Five-star reputation management</p>
           <div class="cooperation__block-photo">
-            <div class="cooperation__zeplin">
-              <img src="img/small-parts/Zeplin.png" alt="zeplin logo" />
-            </div>
-            <div class="cooperation__canva">
-              <img src="img/small-parts/Canvas.png" alt="canva logo" />
-            </div>
-            <div class="cooperation__slack">
-              <img src="img/small-parts/slack.png" alt="slack logo" />
-            </div>
-            <div class="cooperation__intercom">
-              <img src="img/small-parts/intercom.png" alt="intercom logo" />
-            </div>
-            <div class="cooperation__drift">
-              <img src="img/small-parts/Drift-Logo-40px.png" alt="drift logo" />
-            </div>
+            <img src="img/group-logo.png" alt="logo">
           </div>
         </section>
         <section class="pricing">
@@ -438,22 +378,6 @@
               </ul>
               <button class="pricing__basic-btn">Choose plan</button>
             </div>
-            <div class="pricing__pro">
-              <p class="pricing__pro-month"><span>$100</span> /month</p>
-              <p class="pricing__pro-name">Pro</p>
-              <p class="pricing__pro-text">
-                For most businesses that want to <br />
-                otpimize web queries
-              </p>
-              <ul>
-                <li>All limited links</li>
-                <li>Own analytics platform</li>
-                <li>Chat support</li>
-                <li>Optimize hashtags</li>
-                <li>Unlimited users</li>
-              </ul>
-              <button class="pricing__pro-btn">Choose plan</button>
-            </div>
             <div class="pricing__enterprise">
               <p class="month"><span>$200</span> /month</p>
               <p class="pricing__name">Enterprise</p>
@@ -471,6 +395,22 @@
               <button class="pricing__basic-btn">Choose plan</button>
             </div>
           </div>
+          <div class="pricing__pro">
+            <p class="pricing__pro-month"><span>$100</span> /month</p>
+            <p class="pricing__pro-name">Pro</p>
+            <p class="pricing__pro-text">
+              For most businesses that want to <br />
+              otpimize web queries
+            </p>
+            <ul>
+              <li>All limited links</li>
+              <li>Own analytics platform</li>
+              <li>Chat support</li>
+              <li>Optimize hashtags</li>
+              <li>Unlimited users</li>
+            </ul>
+            <button class="pricing__pro-btn">Choose plan</button>
+          </div>
         </section>
         <section class="faq">
           <p class="faq__text-bold">Frequently Asked Questions</p>
@@ -478,14 +418,16 @@
             You've finally decided to take the leap and talk to a psychic
             (great!).
           </p>
+          <div class="faq__list">
           <ul>
-            <li>Is it possible to use StaffViz for free?</li>
-            <li>Is StaffViz an effective tool for tracking activity?</li>
-            <li>Do I have to provide my credit card?</li>
-            <li>What happens if I exceed the Free plan's user limit?</li>
-            <li>How do you protect my information?</li>
-            <li>Is it helpful in increasing the productivity of the team?</li>
-          </ul>
+            <li>Is it possible to use StaffViz for free?<img class="expand-more" src="img/expand-more.png" alt="expand more icon"></li>
+            <li>Is StaffViz an effective tool for tracking activity?<img class="expand-more" src="img/expand-more.png" alt="expand more icon"></li>
+            <li>Do I have to provide my credit card?<img class="expand-more" src="img/expand-more.png" alt="expand more icon"></li>
+            <li>What happens if I exceed the Free plan's user limit?<img class="expand-more" src="img/expand-more.png" alt="expand more icon"></li>
+            <li>How do you protect my information?<img class="expand-more" src="img/expand-more.png" alt="expand more icon"></li>
+            <li>Is it helpful in increasing the productivity of the team?<img class="expand-more" src="img/expand-more.png" alt="expand more icon"></li>
+        </ul>
+        </div>
           <div class="faq__btn-center">
             <button class="faq__btn">More Questions</button>
           </div>
@@ -576,25 +518,17 @@
             </ul>
           </div>
         </div>
+        <div class="footer__horizontal-line"></div>
         <div class="footer__bottom-logo">
           <p class="footer__bottom-style">Logo</p>
           <div class="footer__bottom-small-logo">
-            <img
-              src="img/footer-logo/footer-pinterest.png"
-              alt="pinterest logo"
-            />
-            <img src="img/footer-logo/footer-g+.png" alt="G+ logo" />
-            <img src="img/footer-logo/footer-twitter.png" alt="twitter logo" />
-            <img
-              src="img/footer-logo/footer-facebook.png"
-              alt="facebook logo"
-            />
+          <img src="img/footer-logo/gropu-footer-logo.png" alt="footer logo">
           </div>
           <p class="footer__bottom-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud <br> exercitation ullamco laboris nisi ut
-            aliquip ex ea laboris commodo consequat. Duis <br> aute irure dolor in
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea laboris commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate
           </p>
         </div>
